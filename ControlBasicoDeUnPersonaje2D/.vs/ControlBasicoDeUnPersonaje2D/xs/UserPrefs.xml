@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{DADA1092-73F8-4C0A-F5A5-C3C7E85D5B0E}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/menu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/player2d.cs">
     <Files>
       <File FileName="Assets/Scripts/comprobarSuelo.cs" Line="26" Column="36" />
       <File FileName="Assets/Scripts/PlataformaMovil.cs" Line="38" Column="10" />
       <File FileName="Assets/Scripts/dibujarLineaEscena.cs" Line="16" Column="26" />
       <File FileName="Assets/Scripts/PlataformaFalling.cs" Line="42" Column="28" />
       <File FileName="Assets/Scripts/CameraFollow.cs" Line="28" Column="56" />
-      <File FileName="Assets/Scripts/player2d.cs" Line="90" Column="10" />
+      <File FileName="Assets/Scripts/player2d.cs" Line="71" Column="16" />
       <File FileName="Assets/Scripts/EnemyController.cs" Line="39" Column="44" />
       <File FileName="Assets/Scripts/menu.cs" Line="37" Column="22" />
     </Files>
