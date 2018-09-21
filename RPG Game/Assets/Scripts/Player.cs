@@ -7,28 +7,38 @@ public class Player : MonoBehaviour {
     public float speed =  4f;
 
     Animator anim;
+    Vector2 mov; //Ahora es visible entre metods
+    Rigidbody2D rb2d;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         anim = GetComponent<Animator>();
+        rb2d = GetComponent<Rigidbody2D>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-        Vector3 movimiento = new Vector3(
+        mov = new Vector2(
             Input.GetAxisRaw("Horizontal"),
-            Input.GetAxisRaw("Vertical"),
-            0);
+            Input.GetAxisRaw("Vertical"));
 
-        transform.position = Vector3.MoveTowards(
-            transform.position,
-            transform.position + movimiento,
-            speed * Time.deltaTime);
 
-        anim.SetFloat("MoveX", movimiento.x);
-        anim.SetFloat("MoveY", movimiento.y);
 
+
+        //transform.position = Vector3.MoveTowards(
+        //    transform.position,
+        //    transform.position + movimiento,
+        //    speed * Time.deltaTime);
+
+        anim.SetFloat("MoveX", mov.x);
+        anim.SetFloat("MoveY", mov.y);
 
 	}
+
+
+    private void FixedUpdate() {
+        rb2d.MovePosition(rb2d.position + mov * speed * Time.deltaTime);
+    }
+
 }
