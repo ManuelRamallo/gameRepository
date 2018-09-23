@@ -31,8 +31,13 @@ public class Player : MonoBehaviour {
         //    transform.position + movimiento,
         //    speed * Time.deltaTime);
 
-        anim.SetFloat("MoveX", mov.x);
-        anim.SetFloat("MoveY", mov.y);
+        if(mov != Vector2.zero) {
+            anim.SetFloat("MoveX", mov.x);
+            anim.SetFloat("MoveY", mov.y);
+            anim.SetBool("walking", true);
+        } else {
+            anim.SetBool("walking", false);
+        }
 
 	}
 

@@ -517,7 +517,7 @@ TextureImporter:
     21301024: Overworld_512
     21301026: Overworld_513
     21301028: Overworld_514
-    21301030: Overworld_515
+    21301030: arbusto
     21301032: Overworld_516
     21301034: Overworld_517
     21301036: Overworld_518
@@ -579,8 +579,8 @@ TextureImporter:
     21301148: Overworld_574
     21301150: Overworld_575
     21301152: Overworld_576
-    21301154: Overworld_577
-    21301156: Overworld_578
+    21301154: arbol 1
+    21301156: arbol 2
     21301158: Overworld_579
     21301160: Overworld_580
     21301162: Overworld_581
@@ -597,8 +597,8 @@ TextureImporter:
     21301184: valla 3
     21301186: valla 4
     21301188: valla 5
-    21301190: Overworld_595
-    21301192: Overworld_596
+    21301190: arbol 3
+    21301192: arbol 4
     21301194: Overworld_597
     21301196: Overworld_598
     21301198: Overworld_599
@@ -11461,7 +11461,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Overworld_515
+      name: arbusto
       rect:
         serializedVersion: 2
         x: 32
@@ -12701,7 +12701,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Overworld_577
+      name: arbol 1
       rect:
         serializedVersion: 2
         x: 80
@@ -12721,7 +12721,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Overworld_578
+      name: arbol 2
       rect:
         serializedVersion: 2
         x: 96
@@ -13061,7 +13061,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Overworld_595
+      name: arbol 3
       rect:
         serializedVersion: 2
         x: 80
@@ -13081,7 +13081,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Overworld_596
+      name: arbol 4
       rect:
         serializedVersion: 2
         x: 96
